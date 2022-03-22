@@ -1,12 +1,15 @@
 # Calculate somebody's Body Mass Index (BMI)
 # Author: Ka Lam (Kitty) Kwan
 
+# REF 1: Rounding with python
+# https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python
 
-weight = int(input('Enter your weight in kg:'))
-height = int(input('Enter your height in cm:'))
+# REF 2: BMI calculator in Python
+# https://dev.to/mindninjax/how-to-build-a-bmi-calculator-in-python-4g2g
 
-x = (weight)
-y = (height/100)*(height/100)
-Z = x/y
+weight = int(input('Enter your weight (kg):'))             
+height = int(input('Enter your height (cm):'))
 
-print ('Hello \t Your BMI is {}'.format(Z))
+BMI = weight / (height/100)**2                             # REF 2
+
+print ('The BMI is (kg/m**2) {:.2f}.'.format(BMI))         # REF 1
