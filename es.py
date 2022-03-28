@@ -11,18 +11,18 @@
 # REF3: Letter frequancy in text file
 # https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
 
-#f = open("moby-dick.txt", "x")      # REF 2
+#f = open("moby-dick.txt", "x")      # creates file
 #f.write("116960")
 
-import sys                          # REF 1
-filename = sys.argv[-1]       
+import sys                          # import function
+filename = sys.argv[-1]             # first command line argument passed to the script
 
-def letterFrequency(fileName, letter):           # REF 3
-    file = open(fileName, 'r')
-    text = file.read()
-    return text.count(letter)
+def letterFrequency(fileName, letter):    # define function to return letter count        
+    file = open(fileName, 'r')            # open file in read mode
+    text = file.read()                    # store contents of file in variable
+    return text.count(letter)             # using count function
 
-print(letterFrequency(filename, 'e'))
+print(letterFrequency(filename, 'e'))     # calling function and display the letter count
 
 
 
