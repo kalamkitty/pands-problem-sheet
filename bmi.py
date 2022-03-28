@@ -7,9 +7,9 @@
 # REF 2: BMI calculator in Python
 # https://dev.to/mindninjax/how-to-build-a-bmi-calculator-in-python-4g2g
 
-weight = int(input('Enter your weight (kg):'))             
+weight = int(input('Enter your weight (kg):'))             # user to input weight and height
 height = int(input('Enter your height (cm):'))
 
-BMI = weight / (height/100)**2                             # REF 2
+BMI = weight / (height/100)**2                             # calculates user's BMI
 
-print ('The BMI is (kg/m**2) {:.2f}.'.format(BMI))         # REF 1
+print ('The BMI is (kg/m**2) {:.2f}.'.format(BMI))         # returns BMI in 2 decimal places
