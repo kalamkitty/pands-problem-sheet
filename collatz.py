@@ -11,17 +11,17 @@
 # REF 2: Printing strings horizontally
 # https://stackoverflow.com/questions/31900996/strings-iteration-printing-a-string-horizontally
 
-def collatz(number):                 # REF 1
+def collatz(number):                 # creating function
 
-    if number % 2 == 0:              # Even number
-        print(number //2,end=' ')    # REF 2 (end='')
+    if number % 2 == 0:              # if number is an even number
+        print(number //2,end=' ')    # divide by 2
         return  number / 2
 
-    elif number % 2 == 1:            # Odd number
-        result = number * 3 + 1
+    elif number % 2 == 1:            # if number is an add 
+        result = number * 3 + 1      # multiple by 3 and add 1 
         print(result,end=' ')
         return result
 
-n = input("Please enter a positive integer: ")
-while n != 1:
+n = input("Please enter a positive integer: ")    
+while n != 1:                                      # loop will execute when the number becomes 1
     n = collatz(int(n))
