@@ -21,9 +21,9 @@ y1 = x                                                                # f(x)=x
 y2 = x**2                                                             # g(x)=x^2
 y3 = x**3                                                             # h(x)=x^3                                     
 
-plt.plot(x,y1, label="f(x)=x", color='green', linewidth = 3)            # plots f(x)=x 
-plt.plot(x,y2, label="g(x)=x^2", color='red', linewidth = 3)         # plots g(x)=x^2
-plt.plot(x,y3, label="h(x)=x^3", color='blue', linewidth = 3)        # plots h(x)=x^3  
+plt.plot(x,y1, label="f(x)=x", color='green', linewidth = 3)          # plots f(x)=x , using color argument to set colour of plot
+plt.plot(x,y2, label="g(x)=x^2", color='red', linewidth = 3)          # plots g(x)=x^2
+plt.plot(x,y3, label="h(x)=x^3", color='blue', linewidth = 3)         # plots h(x)=x^3  
 
 plt.legend(loc= "upper left")                                         # adding legend to plot
 plt.title("Plot Task", color = 'black')                               # adding title to plot        
