@@ -4,7 +4,7 @@
 
 # Week 01 - Hello World
 
-In the first task I wrote a simple program that prints out Hello World.
+In the first task I wrote a simple program that prints out Hello World. Using the week's lecture as a guide.
 
 References:
 
@@ -24,7 +24,7 @@ Singh, R., 2021. How to build a BMI Calculator in Python. [online] DEV Community
 
 # Week 03 - Second string
 
-This program takes an input string from the user and outputs every second letter in reverse. 
+This program takes an input string from the user and outputs every second letter in reverse. I updated my code to slice the string once rather than twice after the interm feedback, using [::-2]. Which will count by every second letter in reverse.
 
 References:
 
@@ -57,11 +57,11 @@ Python Programming. n.d. How to find current day is weekday or weekends in Pytho
 
 # Week 06 - Square root
 
-This program gets the approximate square root of the users input, using Newton's method. I used this formula squareroot = 0.5 * (approx + (usersinput / x))  to get a broad estimate of the square root of the input number. Using a while loop to calculate a more accurate answer, to only stop the process when the better estimate equals to the initial assumed estimate.
+This program gets the approximate square root of the users input, using Newton's method. I used this formula squareroot = 0.5 * (approx + (usersinput / x))  to get a broad estimate of the square root of the input number. Using a while loop to calculate a more accurate answer using the same formula, to only stop the process when the better estimate equals to the initial assumed estimate.
 
 References:
 
-Square Root of a Number using Newton's Method | Python | The Last Minute Professor. 2021. [video] Youtube.
+Square Root of a Number using Newton's Method | Python | The Last Minute Professor. 2021. [video] Youtube.https://www.youtube.com/watch?v=xdlIFw5EM4w .
 
 Stack Overflow. 2019. Newton's method for approximating square roots. [online] Available at: <https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots> [Accessed 21 March 2022].
 
@@ -83,4 +83,13 @@ GeeksforGeeks. 2021. Count the number of times a letter appears in a text file i
 
 # Week 08 - plotTask
 
-This program plots 3 different mathematical functions in the range [0, 4] on the one set of axes. Using 
+This program plots 3 different mathematical functions in the range [0, 4] on the one set of axes. Using tutorialspoint.com's examples, I used the matplotlib.pyplot and numpy functions to plot the three given functions. I added labels to the axis and changed their colours using the color function.
+
+References:
+Stack Overflow. 2021. Adding a legend to PyPlot in Matplotlib in the simplest manner possible. [online] Available at: <https://stackoverflow.com/questions/19125722/adding-a-legend-to-pyplot-in-matplotlib-in-the-simplest-manner-possible> [Accessed 28 March 2022].
+
+Swcarpentry.github.io. n.d. Plotting – Plotting and Programming in Python. [online] Available at: <https://swcarpentry.github.io/python-novice-gapminder/09-plotting/index.html> [Accessed 28 March 2022].
+
+Palomino, J. and Wasser, L., n.d. Customize Your Plots Using Matplotlib. [online] Earth Data Science - Earth Lab. Available at: <https://www.earthdatascience.org/courses/scientists-guide-to-plotting-data-in-python/plot-with-matplotlib/introduction-to-matplotlib-plots/customize-plot-colors-labels-matplotlib/> [Accessed 28 March 2022].
+
+Tutorialspoint.com. n.d. NumPy - Matplotlib. [online] Available at: <https://www.tutorialspoint.com/numpy/numpy_matplotlib.htm> [Accessed 28 March 2022].
