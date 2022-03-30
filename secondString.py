@@ -8,6 +8,5 @@
 # https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python
 
 
-string = input ("Please enter a sentence: ")[::-1]   # user's input as a string and reversing it
-secondString = string[::2]                           # slicing the string and to print in reverse order
-print (secondString)
+string = input ("Please enter a sentence: ")[::-2]   # user's input as a string and to print every second
+print (string)                                       # letter in reverse 
